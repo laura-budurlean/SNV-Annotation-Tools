@@ -1,12 +1,15 @@
 # SNV_Annotation_Tools
 Useful tools for variant annotation
 
-Variant Annotation Tools
-
 [SNP-Nexus] (https://www.snp-nexus.org/v4/)
 SNPnexus is a web-based variant annotation tool designed to simplify and assist in the selection and prioritisation of known and novel genomic alterations.
 Input: multiple types, including VCF, web-based
 Output: annotated files, CSV, TSV, HTML, graphics
+
+[GEMINI] (https://gemini.readthedocs.io/en/latest/)
+GEMINI (GEnome MINIng) is a flexible framework for exploring genetic variation in the context of the wealth of genome annotations available for the human genome. By placing genetic variants, sample phenotypes and genotypes, as well as genome annotations into an integrated database framework, GEMINI provides a simple, flexible, and powerful system for exploring genetic variation for disease and population genetics. Using the GEMINI framework begins by loading a VCF file (and an optional PED file) into a database. Each variant is automatically annotated by comparing it to several genome annotations from source such as ENCODE tracks, UCSC tracks, OMIM, dbSNP, KEGG, and HPRD. All of this information is stored in portable SQLite database that allows one to explore and interpret both coding and non-coding variation using “off-the-shelf” tools or an enhanced SQL engine. Note: only supports hg19. 
+Input: VCF, pedigree file (optional)
+Output: SQL database, customizable 
 
 [ANNOVAR] (http://annovar.openbioinformatics.org/en/latest/)
 command-line tool, supports SNPs, INDELs, CNVs and block substitutions, provides wide variety of annotation techniques, utilizes RefSeq, UCSC Genes, and the Ensembl gene annotation systems; can compare mutations detected in dpSNP or 1000 Genomes Project.
