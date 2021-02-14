@@ -1,6 +1,9 @@
 # SNV_Annotation_Tools
 Useful tools for variant annotation
 
+[ONCOFUSE] (https://fusionhub.persistent.co.in/oncofuse.html)
+Oncofuse can be used to annotate breakpoints of structural rearrangements and identify fusion genes. It is also..."designed to predict the oncogenic potential of fusion genes found by Next-Generation Sequencing in cancer cells. It is a post-processing step that tries to validate in-silico the predictions made by fusion detection software. Oncofuse is NOT a fusion detection software, its goal is NOT to identify fusion sequences, but to assign a functional prediction score (oncogenic potential, i.e. the probability of being 'driver' events) to fusion sequences identified by other software such as Tophat-fusion, fusioncatcher or STAR."
+
 [SNP-Nexus] (https://www.snp-nexus.org/v4/)
 SNPnexus is a web-based variant annotation tool designed to simplify and assist in the selection and prioritisation of known and novel genomic alterations.
 Input: multiple types, including VCF, web-based
